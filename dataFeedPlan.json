@@ -3,10 +3,14 @@
         "mode": "LTL",
         "service": "RATING",
         "interactionType": "CARRIER_PULL",
-        "entityId": "FEXM"    },
-    "processorStrategies": [        "SYNCHRONOUS_RESPONSE_PUBLISHER",
+        "entityId": "FEXM"
+    },
+    "processorStrategies": [
+        "SYNCHRONOUS_RESPONSE_PUBLISHER",
         "CALL_ORCHESTRATOR_THREADED"
-    ],    "interactions": [  {
+    ],
+    "interactions": [
+        {
             "sequence": 1,
             "metaData": {
                 "connectionType": "SOAP",
