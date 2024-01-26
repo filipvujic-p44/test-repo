@@ -1,0 +1,1 @@
+https://driverapp.goto-logistics.com/api/gotoapi/rate

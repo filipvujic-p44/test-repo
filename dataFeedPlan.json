@@ -1,0 +1,47 @@
+{
+    "configKey": {
+        "mode": "LTL",
+        "service": "RATING",
+        "interactionType": "CARRIER_PULL",
+        "entityId": "FEXM"    },
+    "processorStrategies": [        "SYNCHRONOUS_RESPONSE_PUBLISHER",
+        "CALL_ORCHESTRATOR_THREADED"
+    ],    "interactions": [  {
+            "sequence": 1,
+            "metaData": {
+                "connectionType": "SOAP",
+                "httpMethod": "POST",
+                "contentType": "XML",
+                "controlTemplate": {
+                    "templateName": "controlTemplate_1.ftl",
+                    "templateValue": null,
+                    "realizedTemplate": null
+                },
+                "uriTemplate": {
+                    "templateName": "uriTemplate_1.ftl",
+                    "templateValue": null,
+                    "realizedTemplate": null
+                },
+                "headerTemplate": {
+                    "templateName": "headerTemplate_1.ftl",
+                    "templateValue": null,
+                    "realizedTemplate": null
+                },
+                "requestBodyTemplate": {
+                    "templateName": "requestBodyTemplate_1.ftl",
+                    "templateValue": null,
+                    "realizedTemplate": null
+                },
+                "responseBodyTemplate": {
+                    "templateName": "responseBodyTemplate_1.ftl",
+                    "templateValue": null,
+                    "realizedTemplate": null
+                }
+            },
+            "direction": "BOTH"
+        }
+    ],
+    "planSupported": true,
+    "updateTimestamp": 1706195782,
+    "planVersion": 1706195782
+}
